@@ -5,6 +5,7 @@ int main(){
     //assume that address of 10 is 1000
     //address of 20 is 1004 and so on because int takes 4 byte space
 
+    printf("Arithmetic Addition starts here- \n");
     printf("%d \n", *ptr); // prints the first number 10
     printf("%d \n", ptr); // prints the address of 10
 
@@ -13,5 +14,12 @@ int main(){
 
     printf("%d \n",*(ptr+2)); // prints the number at 1000+8 , ie, 30
     printf("%d \n", (ptr+2));
+
+
+    // UNDERSTANDING POST INCREMENT
+    printf("Post increment operation starts here- \n");
+    printf("%d \n",*ptr++); // this is post increment means it will first print *ptr ie 10 then increase
+    // now internally the pointer point to 1000+4 ,ie 20. now if we print the *ptr, it give 20 now
+     printf("%d",*ptr);
     return 0;
 }

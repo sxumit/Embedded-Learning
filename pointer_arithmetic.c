@@ -24,13 +24,14 @@ int main(){
 
 
      // PREINCREMENT OPERATION
-     printf("Preincrement starts here- \n");
+     printf("Preincrement starts hereeeeeee- \n");
      printf("%d \n",*++ptr); // first increases then prints
 
 
      // PRE DECREMENT OPERATION
      printf("Pre DECREMENT starts here- \n");
      printf("%d \n", *--ptr);
-     
+
+
     return 0;
 }

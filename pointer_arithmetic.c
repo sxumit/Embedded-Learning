@@ -17,7 +17,7 @@ int main(){
 
 
     // UNDERSTANDING POST INCREMENT
-    printf("Post increment operation starts here- \n");
+    printf("Post increment operation starts heree - \n");
     printf("%d \n",*ptr++); // this is post increment means it will first print *ptr ie 10 then increase
     // now internally the pointer point to 1000+4 ,ie 20. now if we print the *ptr, it give 20 now
      printf("%d \n",*ptr);

@@ -24,7 +24,7 @@ int main(){
 
 
      // PREINCREMENT OPERATION
-     printf("Preincrement starts hereee- \n");
+     printf("Preincremnt starts hereee- \n");
      printf("%d \n",*++ptr); // first increases then prints
 
 

@@ -12,7 +12,7 @@ int main(){
     printf("%d \n",*(ptr+1)); // here +1 means 4 byte , so 1000+4 = 1004. means address of 20 
     printf("%d \n", (ptr+1)); // prints the address of 20
 
-    printf("%d \n",*(ptr+2)); // prints the number at 1000+8 , ie, 30
+    printf("%d \n",*(ptr+2)); // prints the num 1000+8 , ie, 30
     printf("%d \n", (ptr+2));
 
 
